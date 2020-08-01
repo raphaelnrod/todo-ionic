@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -25,3 +24,32 @@
 #container a {
   text-decoration: none;
 }
+
+.center-title-horizontal{
+  display: flex;
+  justify-content: center;
+}
+
+.center-title-horizontal h2{
+  font-size: 20px;
+}
+
+ion-item-option ion-icon {
+  font-size: 20px;
+}
+
+ion-item-option{
+  ion-label {
+    font-size: 8px!important;
+  }
+}
+
+.md,.ios{
+  page-landing {
+    .custom-alertDanger {
+      background-color: #F35E5D !important;
+      background: #F35E5D  !important;
+      color: red !important;
+      $alert-md-background-color: #F35E5D;
+      $alert-ios-background: #F35E5D;
+}}}
